@@ -1,7 +1,7 @@
 export class Pacote {
 
     private destino:string
-    private peso:number
+    private =peso:number
 
     constructor(destino:string, peso:number){
         this.destino = destino
