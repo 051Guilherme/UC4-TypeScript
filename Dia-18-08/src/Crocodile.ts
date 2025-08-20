@@ -7,6 +7,6 @@ export class Crocodile extends Animal {
     }
 
     swim():void{
-        console.log(`${this.name} is swimming`)
+        console.log(`${this.name} is swiming`)
     }
 }

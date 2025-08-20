@@ -1,7 +1,7 @@
 export class Animal {
 
-    public name:string
-    public weigth:number
+    protected name:string
+    protected weigth:number
 
     constructor(name:string,weigth:number){
         this.name = name
