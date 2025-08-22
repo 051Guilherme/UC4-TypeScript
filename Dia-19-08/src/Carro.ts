@@ -6,6 +6,7 @@ export class Carro extends Veiculo{
         super(velocidade)
     }
     acelerando(){
-        this.acelerar()
+        this.velocidade +=17        
+        console.log(`O carro esta a ${this.velocidade} km/h`)
     }
 }

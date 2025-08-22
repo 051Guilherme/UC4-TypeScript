@@ -10,6 +10,8 @@ heroi.treinar();       // Acessando protected na própria instância
 
 const carro = new Carro(90)
 carro.acelerando()
+carro.acelerando()
+carro.acelerando()
 
 const meuBanco:ContaPoupanca = new ContaPoupanca(500)
 meuBanco.aplicarJuros(70)
