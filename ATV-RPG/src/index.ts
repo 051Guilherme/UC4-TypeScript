@@ -20,7 +20,7 @@ do{
     opcao = readline.question("Escolha uma opcao: ")
 
     switch(opcao){
-        case "1":
+       case "1":
             personagem.atacar(monstro)
             monstro.atacar(personagem)
             console.log("Vida do personagem: " + personagem.getVida())
