@@ -27,7 +27,7 @@ export class Abrigo extends Local{
     setCapacidade(novaCapacidade:number):void{
         this.capacidade = novaCapacidade
     }
-//VAGAS OCUPADAS
+
     getVagasOcupadas():number{
         return this.vagasOcupadas
     }
