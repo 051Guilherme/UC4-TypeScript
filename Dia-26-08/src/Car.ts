@@ -15,4 +15,4 @@ export class Car implements Vehicle{
     startEngine(): void {
         console.log(`Ligando o carro`)
     }
-}
+}//
