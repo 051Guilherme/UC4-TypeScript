@@ -1,16 +1,16 @@
 import { AForma } from "./AForma";
 
 export class Retangulo extends AForma{
-    base:number
+    largura:number
     altura:number
 
     constructor(base:number,altura:number){
         super()
-        this.base = base
+        this.largura = base
         this.altura = altura
     }
 
     calcularArea(): number {
-        return this.base * this.altura
+        return this.largura * this.altura
     }
 }
