@@ -2,7 +2,7 @@
 
 Questões Objetivas
 
-1 -a
+1 - a
 2 - c
 3 - c
 4 - b
