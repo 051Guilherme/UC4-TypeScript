@@ -93,6 +93,6 @@ const estoque = selecionarEstoque(tipo)
 
 } else if (opcao === "5") {
 console.log("Saindo do sistema...")
-                                                                                           
+    break                                                                                       
 }
 }
