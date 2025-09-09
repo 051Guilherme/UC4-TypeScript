@@ -14,6 +14,6 @@ export class Estoque<T> {
     this.itens.splice(indice, 1);
   }
   buscar(condicao: (item: T) => boolean): T[]{
-  return this.itens
+  return this.itens.filter(condicao)
   }
 }
